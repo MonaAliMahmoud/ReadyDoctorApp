@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile"
+    tools:context="com.example.shaza.readydoctorapp.DrDetailsActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="453dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/drName"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/rate"
+            android:layout_centerHorizontal="true"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/drPhone"
+            android:layout_alignLeft="@+id/drPhone"
+            android:layout_alignStart="@+id/drPhone"
+            android:text="permission_rationale" />
+
+        <TextView
+            android:id="@+id/specialization"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/drPhone"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/drPhone"
+            android:layout_marginBottom="92dp"
+            android:text="specialization" />
+
+        <TextView
+            android:id="@+id/drPhone"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/specialization"
+            android:layout_alignEnd="@+id/drName"
+            android:layout_alignRight="@+id/drName"
+            android:text="@android:string/emptyPhoneNumber"
+            tools:layout_editor_absoluteX="231dp"
+            tools:layout_editor_absoluteY="239dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
+

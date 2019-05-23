@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/login"
+    tools:context="com.example.shaza.readydoctorapp.PatientLoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="462dp"
+        android:layout_height="788dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="170dp"
+        android:orientation="vertical"
+        app:layout_constrainedHeight="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501"
+        tools:ignore="MissingConstraints,UnusedAttribute">
+
+
+
+        <!-- Login progress -->
+        <!--<ProgressBar
+            android:id="@+id/login_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone" />-->
+
+
+       <!-- <AutoCompleteTextView
+            android:id="@+id/Patient_Email"
+            android:layout_width="200dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="375dp"
+            android:hint="Enter your Email "
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorLink="@android:color/background_light"
+
+            android:background="@drawable/rounded_white"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/Patient_Password"
+            style="@android:style/Widget.DeviceDefault.EditText"
+            android:layout_width="200dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="460dp"
+
+
+            android:imeActionId="6"
+            android:imeActionLabel="action_sign_in_short"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:hint="Enter your Password"
+            android:background="@drawable/rounded_white"/>-->
+
+
+        <AutoCompleteTextView
+            android:id="@+id/Patient_Email"
+            android:layout_width="200dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="375dp"
+            android:hint="Enter your Email "
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_white"
+            android:layout_marginStart="125dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/Patient_Password"
+            android:layout_width="200dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="460dp"
+            android:hint="Enter your Password"
+            android:imeActionId="6"
+            android:imeActionLabel="action_sign_in_short"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:background="@drawable/rounded_white"
+            android:layout_marginStart="125dp" />
+
+        <Button
+            android:id="@+id/sign_in_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="138dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="155dp"
+            android:textStyle="bold"
+            android:layout_marginStart="155dp" />
+
+        <Button
+            android:id="@+id/sign_up_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="138dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:onClick="GoToSignUp"
+            android:layout_marginTop="620dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginStart="155dp" />
+<!--android:onClick="GoToSignUp"-->
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

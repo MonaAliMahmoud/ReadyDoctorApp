@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile"
+    tools:context="com.example.shaza.readydoctorapp.RequestActivity">
+
+ <RelativeLayout
+     android:layout_width="0dp"
+     android:layout_height="0dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.0"
+     tools:ignore="MissingConstraints">
+
+  <TextView
+      android:id="@+id/drName"
+      android:layout_width="220dp"
+      android:layout_height="40dp"
+      android:layout_above="@+id/rate"
+      android:layout_centerHorizontal="true"
+      android:text="Dr Name"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="51dp"
+      tools:layout_editor_absoluteY="204dp" />
+
+  <TextView
+      android:id="@+id/fees"
+      android:layout_width="220dp"
+      android:layout_height="40dp"
+      android:layout_above="@+id/requestStatus"
+      android:layout_alignLeft="@+id/requestStatus"
+      android:layout_alignStart="@+id/requestStatus"
+      android:text="Fees"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="51dp"
+      tools:layout_editor_absoluteY="284dp" />
+
+
+  <TextView
+      android:id="@+id/specialization"
+      android:layout_width="220dp"
+      android:layout_height="40dp"
+      android:layout_alignLeft="@+id/drName"
+      android:layout_alignStart="@+id/drName"
+      android:layout_alignTop="@+id/rate"
+      android:layout_marginTop="33dp"
+      android:text="specialization"
+      tools:layout_editor_absoluteX="51dp"
+      tools:layout_editor_absoluteY="244dp" />
+
+  <TextView
+      android:id="@+id/drPhone"
+      android:layout_width="220dp"
+      android:layout_height="40dp"
+      android:layout_alignLeft="@+id/specialization"
+      android:layout_alignParentBottom="true"
+      android:layout_alignStart="@+id/specialization"
+      android:layout_marginBottom="81dp"
+      android:text="@android:string/emptyPhoneNumber"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="51dp"
+      tools:layout_editor_absoluteY="402dp" />
+
+  <TextView
+      android:id="@+id/rate"
+      android:layout_width="220dp"
+      android:layout_height="40dp"
+      android:layout_above="@+id/fees"
+      android:layout_alignLeft="@+id/specialization"
+      android:layout_alignStart="@+id/specialization"
+      android:layout_marginBottom="33dp"
+      android:text="Rate"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="51dp"
+      tools:layout_editor_absoluteY="322dp" />
+
+  <TextView
+      android:id="@+id/requestStatus"
+      android:layout_width="220dp"
+      android:layout_height="40dp"
+      android:layout_above="@+id/drPhone"
+      android:layout_alignLeft="@+id/drPhone"
+      android:layout_alignStart="@+id/drPhone"
+      android:text="Request Status"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="51dp"
+      tools:layout_editor_absoluteY="362dp" />
+
+ </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

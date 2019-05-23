@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ReadyDoctorApp</string>
+    <string name="Google_Maps_API_Key">AIzaSyDkoae6FjBy_IYmEP003imQRYF3UyCcq1w</string>
+    <string name="permission_rationale" />
+</resources>

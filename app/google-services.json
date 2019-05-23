@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "365301748137",
+    "firebase_url": "https://readydoctorapp-204411.firebaseio.com",
+    "project_id": "readydoctorapp-204411",
+    "storage_bucket": "readydoctorapp-204411.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365301748137:android:9153936167aff913",
+        "android_client_info": {
+          "package_name": "com.example.shaza.readydoctorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365301748137-rcosuqdvb8crsm8ajlq2ljti1qbkmrte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shaza.readydoctorapp",
+            "certificate_hash": "41a84fb504d00c4c05d507f80a33b74e14b058eb"
+          }
+        },
+        {
+          "client_id": "365301748137-5nedfelfb07r9ujtmuc4bfoesogknimc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "365301748137-5nedfelfb07r9ujtmuc4bfoesogknimc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfR485cR5nhnQMSVh7u7lym1xl_FFJ1ls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365301748137-5nedfelfb07r9ujtmuc4bfoesogknimc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

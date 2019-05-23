@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    tools:context="com.example.shaza.readydoctorapp.SignUpActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
+
+        <AutoCompleteTextView
+            android:id="@+id/username"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/Patient_Email"
+            android:layout_alignLeft="@+id/Patient_Email"
+            android:layout_alignStart="@+id/Patient_Email"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_white"
+            android:hint="User Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/Patient_Email"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/phonenumber"
+            android:layout_alignLeft="@+id/phonenumber"
+            android:layout_alignStart="@+id/phonenumber"
+            android:layout_marginBottom="19dp"
+            android:background="@drawable/rounded_white"
+            android:hint="Email "
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/phonenumber"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+
+            android:layout_above="@+id/Patient_Password"
+            android:layout_alignLeft="@+id/Patient_Password"
+            android:layout_alignStart="@+id/Patient_Password"
+
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_white"
+            android:ems="10"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/Patient_Password"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/confirmpassword"
+            android:layout_alignLeft="@+id/confirmpassword"
+            android:layout_alignStart="@+id/confirmpassword"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/rounded_white"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAllCaps="true"
+            android:textSize="14sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/confirmpassword"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/Signup"
+            android:layout_alignLeft="@+id/Signup"
+            android:layout_alignStart="@+id/Signup"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/rounded_white"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/Signup"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="446dp" />
+
+
+        <!-- <EditText
+            android:id="@+id/fullname"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/Patient_Email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:textColorLink="@android:color/black"
+            android:textIsSelectable="true"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="151dp" />-->
+
+        <!-- <EditText
+            android:id="@+id/username"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/Patient_Email"
+            android:layout_alignEnd="@+id/Patient_Password"
+            android:layout_alignRight="@+id/Patient_Password"
+            android:layout_marginBottom="37dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:ems="10"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="225dp" />-->
+
+        <!--<EditText
+            android:id="@+id/Patient_Email"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/Patient_Password"
+            android:layout_alignLeft="@+id/username"
+            android:layout_alignStart="@+id/username"
+            android:layout_marginBottom="58dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:textSize="14sp"
+            tools:layout_alignParentEnd="true"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="182dp" />-->
+
+        <!--<EditText
+            android:id="@+id/dateofbirth"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/Signup"
+            android:layout_alignLeft="@+id/Signup"
+            android:layout_alignStart="@+id/Signup"
+            android:layout_marginBottom="35dp"
+            android:ems="10"
+            android:hint="Date of Birth"
+            android:inputType="date"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="367dp" />-->
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
